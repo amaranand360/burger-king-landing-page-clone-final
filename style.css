@@ -1,0 +1,161 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*======================================================== Style for the header part====================================================== */
+.center-part img{
+    height: 60px;
+    cursor: pointer;
+}
+.navbar-container{
+    width: 100vw;
+    background-color: #F5EBDC;
+    color: #502314;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Flame,"Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: 'Lilita One', cursive; */
+
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-left: 30px;
+    cursor: pointer;
+}
+li:hover{
+    color: #D62300;
+}
+.right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-btn{
+    margin-right: 30px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: #502314;
+    color: #F5EBDC;
+    cursor: pointer;
+}
+.cart-btn:hover{
+    background-color: #622c1a;
+}
+.signup-btn{
+    margin-right: 30px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: #D62300;
+    color: #fff;
+    cursor: pointer;
+}
+.signup-btn:hover{
+    background-color: #c12000;
+}
+.choose-location{
+    cursor: pointer;
+}
+.choose-location a{
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0 30px;
+    color: #502314;
+}
+.choose-location a:hover{
+    text-decoration: none;
+}
+
+/*======================================================== Style for the main part====================================================== */
+.main-container{
+    width: 100%;
+    background-color: #F5EBDC;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 150px;
+    flex-wrap: wrap;
+}
+.item-container{
+    width: 560px;
+    height: 420px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.item-image img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.item-image{
+    height: 70%;
+}
+.item-details{
+    background-color: #fff;
+    padding: 20px;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.text{
+    width: 70%;
+    color: #502314;
+}
+.text p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.btn{
+    align-self: flex-end;
+    padding: 13px 17px;
+    font-size: 14px;
+    border-radius: 50px;
+    border: 1px solid #D62300;
+    color: #D62300;
+    background-color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #d623001a;
+}
+
+
+/*===================================== Style for the footer part=========================================== */
+
+.footer-container{
+    font-family: Flame,"Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #2B0200;
+    height: 200px;
+    color: #F5EBDC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.left-footer h1{
+    margin-bottom: 20px;
+}
+.right-footer i{
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+.right-footer i:hover{
+    font-size: 40px;
+}
+
