@@ -1,4 +1,4 @@
-# 🍔 Burger King Landing Page Clone Workshop
+# 🍔 Burger King Landing Page 
 This is a project created for a workshop where we taught data science students how to build a clone of the Burger King landing page. The workshop focussed on the layout and flexbox properties.
 
 ## 🚀 Project Demo
